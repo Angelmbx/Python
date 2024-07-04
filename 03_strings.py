@@ -63,3 +63,4 @@ print(language.lower()) # todas minusculas
 print(language.count("t")) # devuelve cuantas t hay en Python en este caso
 print(language.isnumeric()) # si el valor de language es un número (false)
 print(language.upper().isupper()) # pasa todo a mayus. y comprueba que sea mayus (true)
+print(language.startswith("Py")) # es case-sensitive
