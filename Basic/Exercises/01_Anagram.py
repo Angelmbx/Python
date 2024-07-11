@@ -28,7 +28,7 @@ def anagram_checker():
             letters_2_list.append(letter2)
 
     else:
-        print("Tus dos palabras no son anagramas") 
+        return False
         
 
 
@@ -36,9 +36,9 @@ def anagram_checker():
     letters_2_list.sort()
     
     if letters_1_list == letters_2_list:
-        print("Enhorabuena! tus dos palabras son anagramas")
+        return True
     else:
-        print("Tus dos palabras no son anagramas")
+        return False
      
 
 anagram_checker()    
@@ -59,8 +59,7 @@ def anagram_checker_2():
     word_2_length = len(word_2)
 
     if word_1_length != word_2_length:
-        print("Tus dos palabras no son anagramas")
-        return
+        return False
 
     # Contar la frecuencia de cada letra en ambas palabras
     frequency_1 = {}
@@ -80,9 +79,9 @@ def anagram_checker_2():
 
     # Verificar si las frecuencias de letras son iguales
     if frequency_1 == frequency_2:
-        print("Enhorabuena! Tus dos palabras son anagramas")
+        return True
     else:
-        print("Tus dos palabras no son anagramas")
+        return False
 
 anagram_checker_2()
 '''
