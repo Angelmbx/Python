@@ -73,3 +73,23 @@ current_date = date(current_date.year + 20, current_date.month, current_date.day
 print("Print de fecha +20 años")
 print(current_date)
 print("-----------------------")
+
+
+# print(year_2023 - current_date) esto da error
+print("diff: ")
+diff = current_date - year_2023.date() # para poder restar fechas deben ser del mismo tipo
+print(diff) # 7872 days
+print("-----------------------")
+
+from datetime import timedelta # sirve para crear varias fechas
+
+start_timedelta = timedelta(200, 10, 100, weeks= 10) # days, minutes, miliseconds, weeks con '=' porque no estaba ocupando su sitio en el constructor
+end_timedelta = timedelta(300, 100, 100, weeks= 13)
+
+print("Diferencia entre start_timedelta y end_timedelta:")
+print(end_timedelta - start_timedelta)
+print("Suma de end y start:")
+print(end_timedelta + start_timedelta)
+print("-----------------------")
+
+# Los timedelta sirven para poder trabajar con franjas de tiempo (P.ej. calcular cuanto tiempo ha estado suscrita una perrsona sumando las franjas de tiempo)
