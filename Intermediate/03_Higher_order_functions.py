@@ -76,7 +76,7 @@ print(list(filter(lambda number: number <10, numbers))) # = [2, 5]
 
 ## Reduce
 
-# Va a operar con un valor + el acumulado con los valores que de un conjunto iterable
+# Va a operar con un valor + el acumulado con los valores de un conjunto iterable
 
 from functools import reduce
 # a diferencia de map() y filter(), para utilizar reduce() es necesario importarlo primero de functools
