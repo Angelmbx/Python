@@ -1,0 +1,5 @@
+Mi nombre es Angel
+Y mi apellido es Miranda
+Tengo 33 años
+Y estoy estudiando Python
+Aunque también aprendo Angular
