@@ -1,0 +1,11 @@
+{
+  "name": "Angel",
+  "surname": "Miranda",
+  "age": 33,
+  "language": [
+    "Python",
+    "Swift",
+    "Kotlin"
+  ],
+  "color": "Green"
+}
