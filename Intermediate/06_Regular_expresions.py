@@ -1,6 +1,6 @@
 ### Regular expressions ###
 
-# Las E.R. inspeccionan cadenas de texto
+# Las E.R. inspeccionan cadenas de texto en busca de un determinado patrón. Para poder utilizarlas es necesario importar el modulo 're'
 
 import re
 
